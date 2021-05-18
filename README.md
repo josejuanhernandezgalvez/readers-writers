@@ -39,3 +39,5 @@ As there is an Active Writer, aw> 0, therefore the AR semaphore will prevent the
 
 Case 3: Multiple Running Readers and a writer is activated
 As long as there are Running Readers operating, that is rr> 0, the AW semaphore will prevent Active Writers from making modifications to the buffer. However, at that time the AR semaphore will also be blocked since aw> 0, thus preventing new Running Readers from appearing. As soon as the Running Readers finish, rr = 0, the AW semaphore will be unlocked and the Active Writer will start working.
+
+(c) 2021 José Juan Hernández Gálvez

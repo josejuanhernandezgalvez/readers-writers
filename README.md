@@ -1,4 +1,5 @@
 # readers-writers
+[![My Skills](https://skillicons.dev/icons?i=c&perline=)](https://skillicons.dev)
 
 ## Problem definition
 We have a buffer of size N that can store N data items. On this buffer, several producers and several consumers operate, the producers writing about the buffer and the consumers reading from it. Without the proper timing, the following errors can occur:
